@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     """Return a welcome message for the DevOps Lab."""
-    return "Welcome to DevOps Lab - Version 5"
+    return "welcome to the DevOps Lab!"
 
 
 def open_browser():
